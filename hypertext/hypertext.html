@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Choose Your Pokemon</title>
+
+    <style>
+        body {
+            background-color: lightgrey;
+            margin: 0;
+            min-height: 100vh;
+
+            /* Center content */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 1000px;
+            padding: 30px;
+        }
+
+        .pokemon-row {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .pokemon-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .pokemon-card img {
+            width: 120px;
+            margin-bottom: 15px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #ffcc00;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: orange;
+            transform: scale(1.05);
+        }
+
+        .rules {
+            margin-top: 50px;
+            background-color: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+            text-align: left;
+        }
+
+        .rules h2 {
+            text-align: center;
+        }
+
+        .rules p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>BEGIN YOUR POKÉMON JOURNEY!</h1>
+        <p>Select your starter Pokémon below.</p>
+
+        <div class="pokemon-row">
+
+            <div class="pokemon-card">
+                <img src="images/bulbasaur.png" alt="Bulbasaur">
+
+		<a href="hypertext1.html">
+                    <button>Choose Bulbasaur</button>
+		</a>
+            </div>
+
+            <div class="pokemon-card">
+                <img src="images/charmander.png" alt="Charmander">
+
+		<a href="hypertext2.html">
+                    <button>Choose Charmander</button>
+		</a>
+            </div>
+
+            <div class="pokemon-card">
+                <img src="images/squirtle.png" alt="Squirtle">
+		
+		<a href="hypertext3.html">
+                    <button>Choose Squirtle</button>
+		</a>
+            </div>
+
+        </div>
+
+<!-- Title Screen Music -->
+    <audio autoplay>
+        <source src="audio/titlemusic.mp3" type="audio/mpeg">
+    </audio>
+
+
+        <!-- Rules Section -->
+        <div class="rules">
+
+            <h2>GAME RULES</h2>
+
+            <p>
+                The goal of this adventure is to build a powerful bond with your Pokémon
+                by winning battles and helping them evolve to their greatest potential.
+            </p>
+
+            <p>
+                <strong>How to Play:</strong><br><br>
+
+                • Choose your starter Pokémon to begin your journey.<br><br>
+
+                • You and your Pokémon will face two battle stages against different opponents.<br><br>
+
+                • During each round, select the opposing Pokémon that has a type disadvantage
+                against your starter Pokémon.<br><br>
+
+                • Winning a battle rewards your Pokémon with EXP points and allows it to evolve
+                into its next form.<br><br>
+
+                • Choosing the wrong opponent will result in defeat, and you must restart
+                your journey from the beginning.<br><br>
+
+                • Successfully complete all three stages and fully evolve your Pokémon
+                to become a true Pokémon Master!
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

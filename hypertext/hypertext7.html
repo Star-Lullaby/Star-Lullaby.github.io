@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VICTORY!</title>
+
+    <style>
+        body {
+            background-color: lightgrey;
+            margin: 0;
+            min-height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 22px;
+            margin-bottom: 30px;
+        }
+
+        img {
+            width: 250px;
+            margin-bottom: 30px;
+        }
+
+        button {
+            padding: 12px 25px;
+            border: none;
+            background-color: #ffcc00;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: orange;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+ <!-- Evolution Sound Effect -->
+    <audio autoplay>
+        <source src="audio/evolved.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="container">
+
+        <h1>VANILLUXE FAINTED!</h1>
+
+        <p>
+            Charmeleon gained 6,000 EXP.<br>
+            Congratulations! Charmeleon evolved into Charizard!
+        </p>
+
+        <!-- Charizard Image -->
+        <img src="images/charizard.png" alt="Charizard">
+
+        <!-- Continue Button -->
+        <a href="hypertext8.html">
+            <button>Continue</button>
+        </a>
+
+    </div>
+
+</body>
+</html>
